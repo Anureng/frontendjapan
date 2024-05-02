@@ -59,7 +59,7 @@ const FetchData = () => {
                                     <h3 className="text-lg font-medium mb-2">{el.Name}</h3>
                                     <p className="text-gray-500 mb-2">{el.CompanyName}</p>
                                     <p className="text-gray-500 mb-2">{el.Location}</p>
-                                    <a href={`http://localhost:3000/Job/${el._id}`} className="text-blue-500 hover:text-blue-700">Explore</a>
+                                    <a href={`https://japanbackend.onrender.com/Job/${el._id}`} className="text-blue-500 hover:text-blue-700">Explore</a>
                                 </div>
                             ))}
                         </div>) : (
